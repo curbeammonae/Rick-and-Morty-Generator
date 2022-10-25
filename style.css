@@ -4,4 +4,35 @@ body{
     background-image: url(./rick-and-morty-rick.gif);
 background-repeat: no-repeat;
 background-size: cover;
+
+}
+
+h2, h3, h4{
+    color: white;
+}
+
+section{
+    
+    height: 60vh;
+    width: 60vw;
+    border: 10px solid white;
+
+    margin: 0 auto;
+}
+
+div{
+    text-align: center;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 20px;
+    transition-duration: 0.4s;
+    
+}
+button:hover {
+    background-color: #000000; /* Green */
+    color: white;
+    cursor: pointer;
 }
